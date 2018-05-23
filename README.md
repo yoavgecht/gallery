@@ -1,5 +1,5 @@
 clone the repo 
-https://github.com/yoavgecht/gallery.git
+git clone https://github.com/yoavgecht/gallery.git
 
 npm install
 
