@@ -7,6 +7,8 @@ export default function images(state = {images:[]}, action) {
       return state;
     case 'SELECT_IMAGE':
       return {...state, selectedImage: action.image};
+    case 'SAVE_IMAGE':
+      return {...state, savedImage: action.image};
     default:
       return state
   }

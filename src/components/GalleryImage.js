@@ -3,7 +3,7 @@ export default function GalleryImage({image}) {
   return (
     <div className="gallery-image">
       <div>
-        {image ? <img src={image} /> : null}
+        {image ? <img id="mainImage" src={image} /> : null}
       </div>
     </div>
   )

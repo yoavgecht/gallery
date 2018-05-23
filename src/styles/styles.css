@@ -45,3 +45,14 @@ body {
     padding: 1px;
     border: 1px solid black;
 }
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}
